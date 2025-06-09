@@ -1,0 +1,17 @@
+numpy
+pytest-runner
+openai-whisper
+tqdm
+editdistance>=0.5.2
+pytorch_wpe
+librosa
+onnxruntime-gpu
+scipy
+kaldiio
+pandas
+jiwer
+PyYAML>=5.1.2
+zhon
+zhconv
+transformers
+funasr
