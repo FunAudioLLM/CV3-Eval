@@ -1,2 +1,3 @@
 .vscode/
 debug/
+utils/whisper-large-v3/large-v3.pt
