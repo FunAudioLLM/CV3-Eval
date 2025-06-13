@@ -1,0 +1,10 @@
+numba==0.56.2
+umap-learn
+modelscope
+funasr
+transformers
+hdbscan
+fastcluster
+opencv-python
+python_speech_features
+onnxruntime-gpu

@@ -15,3 +15,8 @@ zhon
 zhconv
 transformers
 funasr
+addict
+datasets==2.16.0
+pillow
+simplejson
+sortedcontainers

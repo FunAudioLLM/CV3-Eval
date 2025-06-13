@@ -1,0 +1,13 @@
+{
+  "framework": "pytorch",
+  "task" : "emotion-recognition",
+  "pipeline": {"type":"funasr-pipeline"},
+  "model": {"type" : "funasr"},
+  "file_path_metas": {
+    "init_param":"model.pt", 
+    "tokenizer_conf": {"token_list": "tokens.txt"},
+    "config":"config.yaml"},
+  "model_name_in_hub": {
+    "ms":"iic/emotion2vec_base", 
+    "hf":""}
+}
