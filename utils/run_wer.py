@@ -21,7 +21,7 @@ lang = sys.argv[3] # zh or en
 device = "cuda" if torch.cuda.is_available() else 'cpu'
 
 def load_en_model():
-    model_id = "whisper-large-v3/large-v3.pt"
+    model_id = "large-v3"
     model = whisper.load_model(model_id).to(device)
     model.eval()
     return model
