@@ -43,6 +43,16 @@ bash run_infer_cv3_eval_emo.sh
 ## Citation
 If this benchmark is useful for you, please cite as:
 ```
+@article{gao2025differentiablerewardoptimizationllm,
+      title={Differentiable Reward Optimization for LLM based TTS system}, 
+      author={Changfeng Gao and Zhihao Du and Shiliang Zhang},
+      year={2025},
+      eprint={2507.05911},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2507.05911}, 
+}
+
 @article{du2025cosyvoice,
   title={CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training},
   author={Du, Zhihao and Gao, Changfeng and Wang, Yuxuan and Yu, Fan and Zhao, Tianyu and Wang, Hao and Lv, Xiang and Wang, Hui and Shi, Xian and An, Keyu and others},
