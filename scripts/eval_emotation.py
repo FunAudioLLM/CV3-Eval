@@ -11,7 +11,8 @@ labels = ['angry', 'disgusted', 'fearful', 'happy', 'neutral', 'other', 'sad', '
 
 inference_pipeline = pipeline(
     task=Tasks.emotion_recognition,
-    model="utils/emo_eval/model/emotion2vec_plus_large/")
+    model="iic/emotion2vec_plus_large") 
+    # model="utils/emo_eval/model/emotion2vec_plus_large/") 
 
 hyp_high_list = []
 ref_high_list = []
